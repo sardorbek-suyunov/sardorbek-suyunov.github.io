@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sardorbek Suyunov — Data Engineer</title>
+<meta name="description" content="Data engineer. Batch pipelines, dimensional modelling, and analytics systems whose numbers can be checked.">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>▦</text></svg>">
+
+<style>
+  :root {
+    --bg:   #ffffff;
+    --fg:   #16181d;
+    --mut:  #5b6270;
+    --line: #e3e6ea;
+    --accent: #1a5fb4;
+    --card: #f7f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:   #0f1115;
+      --fg:   #e6e9ef;
+      --mut:  #99a1b0;
+      --line: #252932;
+      --accent: #74a8ff;
+      --card: #161920;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.65 ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 43rem; margin: 0 auto; padding: 5rem 1.25rem 4rem; }
+
+  h1 { font-size: 1.9rem; margin: 0 0 .35rem; letter-spacing: -.02em; }
+  .tagline { color: var(--mut); margin: 0 0 2.75rem; font-size: 1.05rem; }
+
+  h2 {
+    font-size: .78rem; text-transform: uppercase; letter-spacing: .09em;
+    color: var(--mut); font-weight: 600;
+    margin: 2.75rem 0 .9rem; padding-bottom: .5rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .project { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 1.15rem 1.25rem; }
+  .project h3 { margin: 0 0 .4rem; font-size: 1.05rem; }
+  .project p { margin: 0 0 .9rem; color: var(--mut); font-size: .96rem; }
+
+  .links { display: flex; flex-wrap: wrap; gap: .5rem; }
+  .links a, .links span {
+    font-size: .87rem; padding: .3rem .7rem; border-radius: 6px;
+    border: 1px solid var(--line); text-decoration: none; color: var(--accent);
+    background: var(--bg);
+  }
+  .links a:hover { border-color: var(--accent); }
+  .links span { color: var(--mut); border-style: dashed; }
+
+  ul.plain { list-style: none; padding: 0; margin: 0; }
+  ul.plain li { margin-bottom: .45rem; }
+  a { color: var(--accent); }
+
+  footer { margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--line); color: var(--mut); font-size: .85rem; }
+</style>
+</head>
+
+<body>
+<main>
+
+  <h1>Sardorbek Suyunov</h1>
+  <p class="tagline">
+    Data engineer — batch pipelines, dimensional modelling, and analytics
+    systems whose numbers can be checked.
+  </p>
+
+  <h2>Selected work</h2>
+
+  <div class="project">
+    <h3>Olist Customer Intelligence</h3>
+    <p>
+      An end-to-end batch platform over the Brazilian e-commerce dataset:
+      time-sliced replay into BigQuery, dbt marts with Type&nbsp;2 history and
+      an as-of join, LLM review enrichment, and a natural-language&nbsp;→&nbsp;SQL
+      agent behind a parsed SQL guard and a priced-before-the-call budget.
+      One dbt codebase, two warehouses.
+    </p>
+    <div class="links">
+      <!-- Each of these becomes a real link when the thing behind it exists.
+           A dead link on a landing page is the same failure as a README that
+           says "Live at the URL above" with no URL above it. -->
+      <span>Live demo — deploying</span>
+      <span>Repository — private</span>
+      <span>dbt docs — pending</span>
+    </div>
+  </div>
+
+  <h2>CV</h2>
+  <ul class="plain">
+    <li><span style="color:var(--mut)">PDF — to be added.</span></li>
+  </ul>
+
+  <h2>Contact</h2>
+  <ul class="plain">
+    <li><a href="https://github.com/sardorbek-suyunov">github.com/sardorbek-suyunov</a></li>
+    <li><span style="color:var(--mut)">LinkedIn — to be added.</span></li>
+    <li><span style="color:var(--mut)">Email — to be added.</span></li>
+  </ul>
+
+  <footer>
+    sardorbek.codes — one page, no framework, no build step.
+  </footer>
+
+</main>
+</body>
+</html>
